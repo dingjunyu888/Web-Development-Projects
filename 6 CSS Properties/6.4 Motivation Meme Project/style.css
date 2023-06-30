@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+}
+
+div{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 25%;
+}
+
+img{
+    border: 5px solid white;
+    width: 100%
+}
+
+h1{
+    font-family: 'Agdasima', sans-serif;
+    font-size: 3rem;
+    color:white;
+    text-align: center;
+}
+
+p{
+    font-family: 'Agdasima', sans-serif;
+    color:white;
+    text-align: center;
+}
