@@ -1,0 +1,36 @@
+.gradient-background {
+    background: linear-gradient(300deg, #535353, #2f1616, #ff0000);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.title{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.briefdis{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+.projectsTitle{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
